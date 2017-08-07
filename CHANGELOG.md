@@ -1,6 +1,11 @@
 # Changelog
 
--   Version 0.1.3
+-   Version 0.1.4
+    -   Add stupid mode
+    -   Add input, title, main and nav module
+    -   Fix minor bugs
+    -   Use dogui.set(this) for stupid mode
+-   Version 0.1.3 
     -   Add fixed header, nav, main latout
     -   Add import methods from single file
     -   Publish on yarn
