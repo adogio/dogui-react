@@ -1,7 +1,8 @@
 {
   "name": "dogui-react",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "WMXPY",
+  "description": "A UI library for React",
   "license": "MIT",
   "main": "src/import.js",
   "dependencies": {
