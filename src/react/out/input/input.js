@@ -13,8 +13,7 @@ class input extends Component {
     }
 
     render() {
-        return (
-            <input value={this.state.value} onChange={this.handleingChange} />
+        return (<input value={this.state.value} onChange={this.handleingChange} />
         );
     }
 
@@ -23,11 +22,11 @@ class input extends Component {
             value: change.target.value
         })
         // When dogui is on stupid mode, use stupid twoway binding instead smarter data flow
-        if (global.mode == "stupid") {
-            this.props.model ? this._reactInternalInstance._currentElement._owner._instance.dog_handleInput(change, this.props.model) : null;
+        if (global.mode === "stupid") {
+            if (this.props.model) this._reactInternalInstance._currentElement._owner._instance.dog_handleInput(change, this.props.model);
         } else {
-            this.props.onInput ? this.props.onInput(change) : null;
-            this.props.model ? this.props.model(change) : null;
+            if (this.props.onInput) this.props.onInput(change);
+            if (this.props.model) this.props.model(change);
         }
     }
 }

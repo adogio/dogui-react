@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import {
 	Title, Nav, Main, Input
 } from './import';
-import dogui from './import';
 import './App.css';
 
 class App extends Component {
