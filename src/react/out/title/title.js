@@ -7,7 +7,7 @@ class Title extends Component {
     render() {
         return (
             <div className="App-header">
-                template
+                {this.props.children}
             </div>
         );
     }

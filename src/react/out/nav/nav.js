@@ -8,7 +8,7 @@ class Nav extends Component {
         return (
             <div className="nav-left">
                 <div className="main-content">
-                    Nav
+                    {this.props.children}
                 </div>
             </div>
         );

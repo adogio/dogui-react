@@ -5,12 +5,16 @@ import './main.css';
 
 class Main extends Component {
     render() {
+        let props = this.props;
         return (
             <div className="main-right">
-                Main
+                <div className="content">
+                    {props.children}
+                </div>
             </div>
         );
     }
+
 }
 
 export default Main;
