@@ -6,8 +6,8 @@
   "license": "MIT",
   "main": "src/import.js",
   "dependencies": {
-    "caperjs": "^2.0.0",
-    "doglib": "^1.0.7"
+    "caperjs": "^2.0.5",
+    "doglib": "^1.0.8"
   },
   "devDependencies": {
     "react": "^15.6.1",
