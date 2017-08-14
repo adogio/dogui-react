@@ -1,5 +1,7 @@
 # Changelog
 
+-   Version 0.1.5
+    -   Update dependence
 -   Version 0.1.4
     -   Add stupid mode
     -   Add input, title, main and nav module

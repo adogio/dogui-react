@@ -1,13 +1,15 @@
 {
   "name": "dogui-react",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "author": "WMXPY",
   "description": "A UI library for React",
   "license": "MIT",
   "main": "src/import.js",
   "dependencies": {
     "caperjs": "^2.0.0",
-    "doglib": "^1.0.7",
+    "doglib": "^1.0.7"
+  },
+  "devDependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-scripts": "1.0.10"
