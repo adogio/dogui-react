@@ -1,5 +1,8 @@
 # Changelog
 
+-   Version 0.2.0
+    -   Add many components
+    -   Update from dogresume
 -   Version 0.1.5
     -   Update dependence
 -   Version 0.1.4
