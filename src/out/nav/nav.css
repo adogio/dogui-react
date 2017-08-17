@@ -1,0 +1,13 @@
+.nav-left {
+    width: 25%;
+    background-color: black;
+    color: white;
+    height: 100%;
+    display: inline-block;
+    border-right: 5px solid black;
+    border-left: 5px solid black
+}
+
+.main-content {
+    padding-top: 30px;
+}
