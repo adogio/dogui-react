@@ -1,5 +1,9 @@
 # Changelog
 
+-   Version 0.3.3
+    -   Fix minor issue
+-   Version 0.3.2
+    -   Import everything
 -   Version 0.3.1
     -   Fix bugs
 -   Version 0.3.0
