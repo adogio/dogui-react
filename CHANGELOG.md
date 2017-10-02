@@ -1,5 +1,9 @@
 # Changelog
 
+-   Version 0.3.1
+    -   Fix bugs
+-   Version 0.3.0
+    -   Update publish to babeled version
 -   Version 0.2.0
     -   Add many components
     -   Update from dogresume

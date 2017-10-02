@@ -1,8 +1,8 @@
-import title from './react/out/title/title';
-import nav from './react/out/nav/nav';
-import main from './react/out/main/main';
-import input from './react/out/input/input';
-import global from './react/global';
+import title from './out/title/title';
+import nav from './out/nav/nav';
+import main from './out/main/main';
+import input from './out/input/input';
+import global from './global';
 
 export default {
     set: (react) => {
