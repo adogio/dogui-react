@@ -14,7 +14,12 @@
 /src/Index.css
 /src/Index.js
 /src/registerServiceWorker.js
-
+src
+public
+.babelrc
+.gitignore
+.npmignore
+makefile
 # misc
 .DS_Store
 .env.local

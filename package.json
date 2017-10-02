@@ -4,7 +4,7 @@
   "author": "WMXPY",
   "description": "A UI library for React",
   "license": "MIT",
-  "main": "src/import.js",
+  "main": "lib/import.js",
   "dependencies": {
     "caperjs": "^2.0.5",
     "doglib": "^1.0.8"
