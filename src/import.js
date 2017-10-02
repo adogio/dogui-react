@@ -16,13 +16,15 @@ import hugeButtonSwitch from './res/hugeButtonSwitch/bugeButtonSwitch';
 import quote from './res/quote/quote';
 
 export default {
-    set: (react) => {
+    install: function (react) {
         global.mode = "stupid";
-        let dog_handleInput = (_event, model) => {
-            let event = _event;
-            let elem = event.target;
-            let value = elem.value;
-            react.setState(state => state[model] = value);
+        var dog_handleInput = function (event, model) {
+            var event = _event;
+            var elem = event.target;
+            var value = elem.value;
+            react.setState(function (state) {
+                state[model] = value;
+            });
         }
         react.dog_handleInput = dog_handleInput.bind(react);
     }
