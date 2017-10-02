@@ -1,6 +1,6 @@
 {
   "name": "dogui-react",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "author": "WMXPY",
   "description": "A UI library for React",
   "license": "MIT",
@@ -10,9 +10,10 @@
     "doglib": "^1.0.8"
   },
   "devDependencies": {
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "react-scripts": "1.0.10"
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
   },
   "repository": {
     "type": "git",
